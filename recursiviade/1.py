@@ -10,5 +10,6 @@ def conta_divisores(n):
     return conta_divisores_r(n, n)
 
 n = int(input())
-print(conta_divisores(n))
+result = conta_divisores(n)
+print(result)
 
